@@ -5,7 +5,9 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "target": "ESNext",
+    "jsx": "react-jsx",
     "declaration": true,
+    "declarationDir": "dist",
     "esModuleInterop": true,
     "strict": true
   },

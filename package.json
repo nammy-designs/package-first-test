@@ -1,5 +1,5 @@
 {
-  "name": "testing-typescript-nd-utilities",
+  "name": "nd-designs-utilities",
   "version": "1.2.0",
   "description": "A TypeScript-based ES6 module package",
   "main": "./dist/index.js",
@@ -9,14 +9,30 @@
     "import": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "rollup -c",
     "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "keywords": [],
   "author": "Nammy Designs",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
     "@types/node": "^22.12.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "rollup": "^4.32.1",
+    "rollup-plugin-dts": "^6.1.1",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tslib": "^2.8.1"
   }
 }

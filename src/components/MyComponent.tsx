@@ -5,7 +5,7 @@ export interface MyComponentProps {
 }
 
 const MyComponent: React.FC<MyComponentProps> = ({ text }) => {
-  return <div style={{ padding: 10, border: "1px solid #ccc" }}>{text}</div>;
+  return <div className="text-3xl font-bold underline">{text}</div>;
 };
 
 export default MyComponent;

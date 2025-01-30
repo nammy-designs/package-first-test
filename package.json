@@ -12,10 +12,6 @@
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
-  "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
   "keywords": [],
   "author": "Nammy Designs",
   "license": "MIT",
@@ -31,13 +27,8 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.0",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "rollup-plugin-postcss": "^4.0.2",
-    "tailwindcss": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "tslib": "^2.8.1"
   }
 }
